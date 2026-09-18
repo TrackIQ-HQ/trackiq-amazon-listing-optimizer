@@ -4,7 +4,7 @@
   "category": "listing",
   "version": "1.0.0",
   "updated": "2026-09-18",
-  "summary": "Rewrites one Amazon listing \u2014 title, bullets, description and backend terms \u2014 against the terms it should rank for and the questions shoppers actually ask, producing a side-by-side of current and proposed copy with the reason for every change. Built for how Amazon matches intent and answers questions in 2026, not for keyword stuffing. Use when the user asks to optimise a listing, rewrite a title o",
+  "summary": "Rewrites one Amazon listing \u2014 title, bullets, description and backend terms \u2014 against the terms it should rank for and the questions shoppers actually ask, producing a side-by-side of current and proposed copy with the reason for every change. Built for how Amazon matches intent and answers questions in 2026, not for keyword stuffing.",
   "changelog": "First public release.",
   "requires": {
     "mcp": [

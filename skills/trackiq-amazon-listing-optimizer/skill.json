@@ -1,0 +1,40 @@
+{
+  "name": "trackiq-amazon-listing-optimizer",
+  "title": "TrackIQ: Amazon Listing Optimizer",
+  "category": "listing",
+  "version": "1.0.0",
+  "updated": "2026-09-18",
+  "summary": "Rewrites one Amazon listing \u2014 title, bullets, description and backend terms \u2014 against the terms it should rank for and the questions shoppers actually ask, producing a side-by-side of current and proposed copy with the reason for every change. Built for how Amazon matches intent and answers questions in 2026, not for keyword stuffing. Use when the user asks to optimise a listing, rewrite a title o",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": [
+      "trackiq"
+    ],
+    "tools": [
+      "get_product",
+      "get_reviews",
+      "get_search_query_performance",
+      "get_search_terms",
+      "list_marketplaces"
+    ],
+    "filesystem": false,
+    "network": true,
+    "third_party_apis": [
+      "oxylabs"
+    ],
+    "third_party_note": "Requires an Oxylabs scraper connection; the public page is the only source for this data."
+  },
+  "delivery": {
+    "methods": [
+      "in-chat",
+      "file",
+      "slack",
+      "n8n",
+      "email"
+    ],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. Outward sends confirm first."
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-listing-optimizer",
+  "license": "MIT"
+}
